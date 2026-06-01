@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.card {
+  background: white;
+  padding: 60px;
+  border-radius: 25px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.text {
+  font-size: 40px;
+  color: #ff4d6d;
+  margin-bottom: 20px;
+}
+
+#hearts {
+  font-size: 20px;
+  color: #ff4d6d;
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+button {
+  padding: 12px 25px;
+  border: none;
+  background: #ff4d6d;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #ff2e5c;
+}
